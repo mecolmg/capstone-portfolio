@@ -478,6 +478,10 @@ export default {
 
 .sticky-header {
   background-color: white;
+  &.uk-sticky-fixed {
+    min-width: 100vw;
+    left: 0;
+  }
 }
 
 #sp1 {
