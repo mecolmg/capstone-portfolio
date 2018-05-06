@@ -4,7 +4,7 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   }
 } : {
   router: {
-    base: './'
+    base: '/'
   }
 }
 
@@ -20,7 +20,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Portfolio of work done by Colm Gallagher in Creative Computing Studio Capstone at Virginia Tech' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://www.assets.cms.vt.edu/images/Standard/Standard_RGB.svg' }
     ]
   },
   /*
