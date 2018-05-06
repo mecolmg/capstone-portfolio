@@ -454,10 +454,10 @@ export default {
   @media (min-width: 400px) {
     margin: 36px;
   }
-  @media (min-width: 1040px) {
+  @media (min-width: 1146px) {
     margin: 36px auto;
   }
-  max-width: 1000px;
+  max-width: 1110px;
 }
 
 .profile-pic-wrapper {
