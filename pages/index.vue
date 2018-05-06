@@ -1,28 +1,28 @@
 <template>
   <div class="portfolio">
-    <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
+    <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
       <div><div class="uk-card uk-card-hover uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
         <div uk-grid>
-          <div class="uk-width-2-3@m">
+          <div class="uk-width-2-3">
             <h3 class="uk-card-title">What is this?</h3>
             <p>
               This is a portfolio of my work done in
               the CS 4644: Creative Computing Studio.
             </p>
           </div>
-          <div class="uk-width-1-3@m uk-align-center">
+          <div class="uk-width-1-3 uk-align-center">
             <img class="vt-logo" src="https://www.assets.cms.vt.edu/images/Standard/Standard_RGB.svg">
           </div>
         </div>
       </div></div>
       <div><div class="uk-card uk-card-hover uk-card-primary uk-card-body uk-animation-slide-top" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
         <div uk-grid>
-          <div class="uk-width-1-3@m uk-flex uk-flex-middle">
+          <div class="uk-width-1-3 uk-flex uk-flex-middle">
             <div class="profile-pic-wrapper">
               <img class="profile-pic" src="../assets/profile-pic.jpg">
             </div>
           </div>
-          <div class="uk-width-2-3@m">
+          <div class="uk-width-2-3">
             <h3 class="uk-card-title">Who am I?</h3>
             <p>
               I am Colm Gallagher.
@@ -384,7 +384,7 @@
           uk-parallax="blur: 5, 0; viewport: 0.8;">
         ICAT Day
       </h1>
-      <div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="animation: push; autoplay: true; min-height: 600; max-height: 1000; autoplay-interval: 3000; pause-on-hover: true;">
+      <div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="animation: push; autoplay: true; min-height: 600; max-height: 1000; autoplay-interval: 6000;">
         <ul class="uk-slideshow-items">
           <li>
             <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
@@ -448,12 +448,16 @@ export default {
 
 <style lang="scss" scoped>
 .portfolio {
-  @media (min-width: 400px) {
-    margin: 36px;
-  }
   @media (max-width: 400px) {
     margin: 8px;
   }
+  @media (min-width: 400px) {
+    margin: 36px;
+  }
+  @media (min-width: 1040px) {
+    margin: 36px auto;
+  }
+  max-width: 1000px;
 }
 
 .profile-pic-wrapper {

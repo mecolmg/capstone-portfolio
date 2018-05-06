@@ -13,14 +13,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'capstone-portfolio',
+    title: 'Portfolio - Creative Computing Studio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Portfolio of work done by Colm Gallagher in Creative Computing Studio Capstone at Virginia Tech' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://www.assets.cms.vt.edu/images/Standard/Standard_RGB.svg' }
+      { rel: 'icon', href: 'https://github.com/fluidicon.png' }
     ]
   },
   /*
