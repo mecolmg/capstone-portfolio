@@ -14,6 +14,7 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "hoek": "^5.0.3",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {
